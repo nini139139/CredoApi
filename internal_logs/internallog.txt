@@ -1,0 +1,1477 @@
+2020-05-20 08:22:17.4264 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 08:22:17.5518 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 08:22:17.5518 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 08:22:17.5633 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 08:22:17.5633 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 08:22:17.5633 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 08:22:17.5633 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 08:22:17.5633 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 08:22:17.5633 Debug Auto loading done
+2020-05-20 08:22:17.5633 Info Message Template Auto Format enabled
+2020-05-20 08:22:17.6021 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6021 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 08:22:17.6184 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 08:22:17.6184 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 08:22:17.6184 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6184 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.6184 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6184 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 08:22:17.6270 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 08:22:17.6270 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 08:22:17.6270 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.6270 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.6270 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6270 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 08:22:17.6270 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6270 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 08:22:17.6439 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 08:22:17.6439 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 08:22:17.6439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6439 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 08:22:17.6439 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 08:22:17.6439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6439 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 08:22:17.6439 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 08:22:17.6439 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 08:22:17.6439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6439 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.6439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6439 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 08:22:17.6439 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 08:22:17.6569 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 08:22:17.6569 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.6569 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.6569 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.6569 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 08:22:17.6569 Info Adding target FileTarget(Name=logfile)
+2020-05-20 08:22:17.6569 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 08:22:17.6569 Trace ParseRulesElement
+2020-05-20 08:22:17.6917 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 08:22:17.6917 Debug --- NLog configuration dump ---
+2020-05-20 08:22:17.6917 Debug Targets:
+2020-05-20 08:22:17.6917 Debug File Target[logfile]
+2020-05-20 08:22:17.6917 Debug Rules:
+2020-05-20 08:22:17.6917 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 08:22:17.6917 Debug --- End of NLog configuration dump ---
+2020-05-20 08:22:17.7044 Trace FindReachableObject<System.Object>:
+2020-05-20 08:22:17.7044 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 08:22:17.7044 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 08:22:17.7044 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 08:22:17.7044 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 08:22:17.7044 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 08:22:17.7044 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7044 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7044 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 08:22:17.7044 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7044 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 08:22:17.7044 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 08:22:17.7044 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7044 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 08:22:17.7044 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7044 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 08:22:17.7044 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 08:22:17.7044 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 08:22:17.7044 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7044 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.7044 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7044 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 08:22:17.7044 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 08:22:17.7203 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 08:22:17.7203 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 08:22:17.7203 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 08:22:17.7203 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 08:22:17.7376 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 08:22:17.7376 Trace Initializing Layout Renderer: ${message}
+2020-05-20 08:22:17.7376 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 08:22:17.7376 Trace Initializing Layout Renderer: ${level}
+2020-05-20 08:22:17.7376 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 08:22:17.7376 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.7376 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 08:22:17.7376 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7376 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.7513 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 08:22:17.7513 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 08:22:17.7513 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 08:22:17.7513 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 08:22:17.7513 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.7513 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 08:22:17.7513 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7513 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 08:22:17.7513 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7513 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 08:22:17.7513 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 08:22:17.7513 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 08:22:17.7513 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7513 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 08:22:17.7513 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7513 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 08:22:17.7513 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 08:22:17.7513 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 08:22:17.7513 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 08:22:17.7513 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 08:22:17.7513 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 08:22:17.7513 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 08:22:17.7513 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 08:22:17.7513 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7663 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 08:22:17.7663 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 08:22:17.7663 Trace Initializing File Target[logfile]
+2020-05-20 08:22:17.7663 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 08:22:17.7663 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 08:22:17.7663 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 08:22:17.7663 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 08:22:17.7663 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 08:22:17.7663 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 08:22:17.7663 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 08:22:17.7663 Trace File Target[logfile] has 2 layouts
+2020-05-20 08:22:17.7663 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-05-20 08:22:18.7547 Debug Targets for LoggerService.LoggerManager by level:
+2020-05-20 08:22:18.7547 Debug Trace =>
+2020-05-20 08:22:18.7547 Debug Debug => logfile
+2020-05-20 08:22:18.7547 Debug Info => logfile
+2020-05-20 08:22:18.7547 Debug Warn => logfile
+2020-05-20 08:22:18.7547 Debug Error => logfile
+2020-05-20 08:22:18.7547 Debug Fatal => logfile
+2020-05-20 08:22:18.7800 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt'
+2020-05-20 08:22:18.7882 Debug Creating file appender: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt
+2020-05-20 08:22:18.7882 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 08:22:18.7987 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 08:22:18.7987 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 08:22:18.7987 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:22:19.5202 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 09:22:19.5616 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 09:22:19.5671 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 09:22:19.5786 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 09:22:19.5786 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 09:22:19.5786 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 09:22:19.5786 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 09:22:19.5786 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 09:22:19.5786 Debug Auto loading done
+2020-05-20 09:22:19.5786 Info Message Template Auto Format enabled
+2020-05-20 09:22:19.6034 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6034 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:22:19.6132 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 09:22:19.6132 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 09:22:19.6132 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6132 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.6132 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6132 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:22:19.6132 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:22:19.6132 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:22:19.6132 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.6132 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.6132 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6132 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 09:22:19.6262 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6262 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:22:19.6262 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 09:22:19.6262 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 09:22:19.6262 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6262 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 09:22:19.6262 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 09:22:19.6262 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6262 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:22:19.6262 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 09:22:19.6418 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 09:22:19.6418 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6418 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.6418 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6418 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:22:19.6418 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:22:19.6418 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:22:19.6418 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.6418 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.6418 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.6418 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:22:19.6418 Info Adding target FileTarget(Name=logfile)
+2020-05-20 09:22:19.6418 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 09:22:19.6418 Trace ParseRulesElement
+2020-05-20 09:22:19.6694 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 09:22:19.6694 Debug --- NLog configuration dump ---
+2020-05-20 09:22:19.6694 Debug Targets:
+2020-05-20 09:22:19.6730 Debug File Target[logfile]
+2020-05-20 09:22:19.6730 Debug Rules:
+2020-05-20 09:22:19.6730 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 09:22:19.6730 Debug --- End of NLog configuration dump ---
+2020-05-20 09:22:19.6730 Trace FindReachableObject<System.Object>:
+2020-05-20 09:22:19.6730 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 09:22:19.6730 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 09:22:19.6730 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 09:22:19.6730 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 09:22:19.6888 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 09:22:19.6888 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.6888 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.6888 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 09:22:19.6888 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.6888 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 09:22:19.6888 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 09:22:19.6888 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.6888 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:22:19.6888 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.6888 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:22:19.6888 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:22:19.6888 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:22:19.6888 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.6888 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.6888 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.6888 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:22:19.6888 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 09:22:19.6888 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 09:22:19.6888 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 09:22:19.7064 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 09:22:19.7064 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 09:22:19.7064 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 09:22:19.7064 Trace Initializing Layout Renderer: ${message}
+2020-05-20 09:22:19.7064 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:22:19.7064 Trace Initializing Layout Renderer: ${level}
+2020-05-20 09:22:19.7064 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 09:22:19.7212 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.7212 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:22:19.7212 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.7212 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.7212 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 09:22:19.7212 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:22:19.7212 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 09:22:19.7212 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 09:22:19.7212 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.7212 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 09:22:19.7212 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.7212 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:22:19.7212 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.7212 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:22:19.7212 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:22:19.7212 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:22:19.7212 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.7212 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:22:19.7212 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.7212 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:22:19.7364 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:22:19.7364 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 09:22:19.7364 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:22:19.7364 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 09:22:19.7364 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:22:19.7364 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 09:22:19.7364 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:22:19.7364 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.7364 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 09:22:19.7364 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:22:19.7364 Trace Initializing File Target[logfile]
+2020-05-20 09:22:19.7364 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 09:22:19.7364 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 09:22:19.7364 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 09:22:19.7364 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 09:22:19.7364 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 09:22:19.7364 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 09:22:19.7364 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 09:22:19.7364 Trace File Target[logfile] has 2 layouts
+2020-05-20 09:22:19.7521 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-05-20 09:23:18.0591 Debug Targets for LoggerService.LoggerManager by level:
+2020-05-20 09:23:18.0591 Debug Trace =>
+2020-05-20 09:23:18.0665 Debug Debug => logfile
+2020-05-20 09:23:18.0665 Debug Info => logfile
+2020-05-20 09:23:18.0665 Debug Warn => logfile
+2020-05-20 09:23:18.0665 Debug Error => logfile
+2020-05-20 09:23:18.0665 Debug Fatal => logfile
+2020-05-20 09:23:18.1025 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt'
+2020-05-20 09:23:18.1105 Debug Creating file appender: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt
+2020-05-20 09:23:18.1105 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:23:18.1270 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:23:24.6021 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:23:26.0828 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:23:26.4788 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:23:26.4876 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:25:43.9242 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 09:25:43.9658 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 09:25:43.9716 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 09:25:43.9716 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 09:25:43.9716 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 09:25:43.9716 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 09:25:43.9878 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 09:25:43.9878 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 09:25:43.9878 Debug Auto loading done
+2020-05-20 09:25:43.9878 Info Message Template Auto Format enabled
+2020-05-20 09:25:44.0109 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0109 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:25:44.0221 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 09:25:44.0221 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 09:25:44.0221 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0221 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.0221 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0221 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:25:44.0221 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:25:44.0221 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:25:44.0221 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.0322 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.0322 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0322 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 09:25:44.0322 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0322 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:25:44.0322 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 09:25:44.0322 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 09:25:44.0322 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0322 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 09:25:44.0322 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 09:25:44.0322 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0322 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:25:44.0322 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 09:25:44.0322 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 09:25:44.0322 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0476 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.0476 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0476 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:25:44.0476 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:25:44.0476 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:25:44.0476 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.0476 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.0476 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.0476 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:25:44.0476 Info Adding target FileTarget(Name=logfile)
+2020-05-20 09:25:44.0476 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 09:25:44.0476 Trace ParseRulesElement
+2020-05-20 09:25:44.0800 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 09:25:44.0800 Debug --- NLog configuration dump ---
+2020-05-20 09:25:44.0800 Debug Targets:
+2020-05-20 09:25:44.0800 Debug File Target[logfile]
+2020-05-20 09:25:44.0800 Debug Rules:
+2020-05-20 09:25:44.0800 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 09:25:44.0800 Debug --- End of NLog configuration dump ---
+2020-05-20 09:25:44.0800 Trace FindReachableObject<System.Object>:
+2020-05-20 09:25:44.0800 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 09:25:44.0800 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 09:25:44.0800 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 09:25:44.0949 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 09:25:44.0949 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 09:25:44.0949 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.0949 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.0949 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 09:25:44.0949 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.0949 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 09:25:44.0949 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 09:25:44.0949 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.0949 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:25:44.0949 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.0949 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:25:44.0949 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:25:44.0949 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:25:44.0949 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.0949 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.0949 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.0949 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:25:44.0949 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 09:25:44.0949 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 09:25:44.0949 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 09:25:44.0949 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 09:25:44.1124 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 09:25:44.1124 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 09:25:44.1124 Trace Initializing Layout Renderer: ${message}
+2020-05-20 09:25:44.1124 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:25:44.1124 Trace Initializing Layout Renderer: ${level}
+2020-05-20 09:25:44.1124 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 09:25:44.1267 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.1267 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:25:44.1267 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.1267 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.1267 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 09:25:44.1267 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:25:44.1267 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 09:25:44.1267 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 09:25:44.1267 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.1267 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 09:25:44.1267 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.1267 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 09:25:44.1267 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.1267 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 09:25:44.1267 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 09:25:44.1267 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 09:25:44.1267 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.1267 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 09:25:44.1267 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.1267 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 09:25:44.1267 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:25:44.1267 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 09:25:44.1267 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 09:25:44.1419 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 09:25:44.1419 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 09:25:44.1419 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 09:25:44.1419 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 09:25:44.1419 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.1419 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 09:25:44.1419 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 09:25:44.1419 Trace Initializing File Target[logfile]
+2020-05-20 09:25:44.1419 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 09:25:44.1419 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 09:25:44.1419 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 09:25:44.1419 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 09:25:44.1419 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 09:25:44.1419 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 09:25:44.1419 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 09:25:44.1419 Trace File Target[logfile] has 2 layouts
+2020-05-20 09:25:44.1419 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-05-20 09:25:45.1282 Debug Targets for LoggerService.LoggerManager by level:
+2020-05-20 09:25:45.1282 Debug Trace =>
+2020-05-20 09:25:45.1282 Debug Debug => logfile
+2020-05-20 09:25:45.1433 Debug Info => logfile
+2020-05-20 09:25:45.1433 Debug Warn => logfile
+2020-05-20 09:25:45.1433 Debug Error => logfile
+2020-05-20 09:25:45.1433 Debug Fatal => logfile
+2020-05-20 09:25:45.1682 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt'
+2020-05-20 09:25:45.1756 Debug Creating file appender: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt
+2020-05-20 09:25:45.1756 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:25:45.1756 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:14.4444 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:14.4444 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:17.8353 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:17.8353 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:17.8670 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:17.8670 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:21.0337 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:26:21.0337 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:27:50.6964 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:27:50.6964 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:28:19.0360 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:28:19.0360 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:29:02.5960 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:29:02.5960 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:29:17.3783 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:29:17.3783 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:29:50.0197 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:29:50.0534 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:20.1937 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:20.1937 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:28.3679 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:28.3679 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:31.4665 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:31.4665 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:32.1454 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:30:32.1454 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:09.5474 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:09.5547 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:13.6629 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:13.6629 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:16.8266 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:16.8266 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:31.0901 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:31.0942 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:38.9446 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:31:38.9446 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:34:02.3645 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:34:02.3645 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:46:19.8498 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:46:19.8498 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:46:44.7184 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:46:44.7201 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:51:08.8476 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:51:08.8614 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:51:47.3424 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:51:47.3471 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:52:07.2041 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:52:07.2041 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:52:17.9309 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:52:17.9309 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:52:54.0637 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:52:54.0637 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:53:11.5455 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:53:11.5455 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:53:36.3501 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:53:36.3707 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:53:53.8281 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:53:53.8304 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:54:48.2552 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:54:48.2552 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:08.8451 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:08.8451 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:30.7171 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:30.7266 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:36.0938 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:36.0954 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:45.9294 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:45.9294 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:47.5983 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:47.5983 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:47.5983 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:55:47.7199 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:56:28.2540 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:56:28.2540 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:56:30.3007 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:56:30.3007 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:56:30.3007 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:56:30.3007 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:58:59.2751 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:58:59.2751 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:59:20.5219 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:59:20.5219 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:59:27.4884 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 09:59:27.4884 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:01:00.4686 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:01:00.4715 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:01:00.4715 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:01:00.4884 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:13.5069 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:13.5069 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:16.8406 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:16.8495 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:16.8495 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:16.8495 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:30.1108 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:30.4294 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:30.4822 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:03:30.4878 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:12.4458 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 10:04:12.5414 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 10:04:12.5414 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 10:04:12.5561 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 10:04:12.5561 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 10:04:12.5561 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 10:04:12.5561 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 10:04:12.5561 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 10:04:12.5561 Debug Auto loading done
+2020-05-20 10:04:12.5561 Info Message Template Auto Format enabled
+2020-05-20 10:04:12.5801 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.5801 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 10:04:12.5801 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 10:04:12.5801 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 10:04:12.5801 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.5801 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.5801 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.5801 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 10:04:12.5957 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 10:04:12.5957 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 10:04:12.5957 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.5957 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.5957 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.5957 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 10:04:12.5957 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.5957 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 10:04:12.5957 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 10:04:12.5957 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 10:04:12.5957 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.5957 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 10:04:12.6103 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 10:04:12.6103 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6103 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 10:04:12.6103 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 10:04:12.6103 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 10:04:12.6103 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6103 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.6103 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6103 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 10:04:12.6103 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 10:04:12.6103 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 10:04:12.6103 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6103 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.6103 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6103 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 10:04:12.6103 Info Adding target FileTarget(Name=logfile)
+2020-05-20 10:04:12.6103 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 10:04:12.6103 Trace ParseRulesElement
+2020-05-20 10:04:12.6404 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 10:04:12.6416 Debug --- NLog configuration dump ---
+2020-05-20 10:04:12.6416 Debug Targets:
+2020-05-20 10:04:12.6416 Debug File Target[logfile]
+2020-05-20 10:04:12.6416 Debug Rules:
+2020-05-20 10:04:12.6416 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 10:04:12.6416 Debug --- End of NLog configuration dump ---
+2020-05-20 10:04:12.6416 Trace FindReachableObject<System.Object>:
+2020-05-20 10:04:12.6416 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 10:04:12.6416 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 10:04:12.6416 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 10:04:12.6416 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 10:04:12.6416 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 10:04:12.6570 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6570 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6570 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 10:04:12.6570 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6570 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 10:04:12.6570 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 10:04:12.6570 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6570 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 10:04:12.6570 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6570 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 10:04:12.6570 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 10:04:12.6570 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 10:04:12.6570 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6570 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.6570 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6570 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 10:04:12.6570 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 10:04:12.6570 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 10:04:12.6570 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 10:04:12.6570 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 10:04:12.6570 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 10:04:12.6768 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 10:04:12.6768 Trace Initializing Layout Renderer: ${message}
+2020-05-20 10:04:12.6768 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 10:04:12.6768 Trace Initializing Layout Renderer: ${level}
+2020-05-20 10:04:12.6768 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 10:04:12.6768 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6768 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 10:04:12.6768 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6768 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.6899 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 10:04:12.6899 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 10:04:12.6899 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 10:04:12.6899 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 10:04:12.6899 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6899 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 10:04:12.6899 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6899 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 10:04:12.6899 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6899 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 10:04:12.6899 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 10:04:12.6899 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 10:04:12.6899 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6899 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 10:04:12.6899 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6899 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 10:04:12.6899 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 10:04:12.6899 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 10:04:12.6899 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 10:04:12.6899 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 10:04:12.6899 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 10:04:12.6899 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 10:04:12.6899 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 10:04:12.6899 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.6899 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 10:04:12.6899 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 10:04:12.7041 Trace Initializing File Target[logfile]
+2020-05-20 10:04:12.7041 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 10:04:12.7041 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 10:04:12.7041 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 10:04:12.7041 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 10:04:12.7041 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 10:04:12.7041 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 10:04:12.7041 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 10:04:12.7041 Trace File Target[logfile] has 2 layouts
+2020-05-20 10:04:12.7041 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-05-20 10:04:15.0544 Debug Targets for LoggerService.LoggerManager by level:
+2020-05-20 10:04:15.0544 Debug Trace =>
+2020-05-20 10:04:15.0641 Debug Debug => logfile
+2020-05-20 10:04:15.0641 Debug Info => logfile
+2020-05-20 10:04:15.0641 Debug Warn => logfile
+2020-05-20 10:04:15.0641 Debug Error => logfile
+2020-05-20 10:04:15.0641 Debug Fatal => logfile
+2020-05-20 10:04:15.0924 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt'
+2020-05-20 10:04:15.1003 Debug Creating file appender: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt
+2020-05-20 10:04:15.1003 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:15.1107 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:28.0850 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:28.1169 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:28.1169 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:28.1266 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:28.2780 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:28.3235 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:34.3959 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:34.6285 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:34.6825 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:34.6907 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:41.1111 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:41.1111 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:41.1111 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:41.1111 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:47.4476 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:47.4476 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:57.1354 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:57.1527 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:57.2156 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:04:57.2156 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:02.5210 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:02.5210 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:09.6645 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:09.6645 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:09.7173 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:09.7238 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:11.7754 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:11.7879 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:11.7879 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:11.7879 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:11.7879 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:11.7879 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:14.9434 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:14.9700 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:15.0217 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:15.0217 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:19.3889 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:19.3963 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:19.3963 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:19.3963 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:19.3963 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:19.3963 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:24.3438 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:24.3820 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:24.4176 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:24.4176 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:26.1972 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:26.1972 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:26.2109 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:26.2109 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:26.2109 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:26.2109 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:32.5789 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:32.5789 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:32.6308 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:32.6308 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:37.5646 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:37.5646 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:37.5646 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:37.5646 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:37.5646 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:37.5793 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:40.3678 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:40.3859 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:40.4331 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:40.4331 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:51.1788 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:05:51.1788 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:06:29.2710 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:06:29.2710 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:06:57.9095 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:06:57.9095 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:07:22.4059 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:07:22.4130 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:07:22.5047 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:07:22.5047 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:11:38.6239 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:11:38.6309 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:11:55.8687 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:11:55.8687 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:12:57.3072 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:12:57.3177 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:13:16.8631 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:13:16.8631 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:14:22.9634 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:14:22.9719 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:16:25.7432 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:16:25.7432 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:18:29.2412 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:18:29.2698 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:19:36.8510 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:19:36.8510 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:19:54.9876 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:19:54.9876 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:20:00.6204 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:20:00.6204 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:21:53.6034 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:21:53.6114 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:31:16.0665 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:31:16.0665 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:35:44.4738 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:35:44.4738 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:10.9589 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:10.9589 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:57.7333 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:57.7393 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:59.8694 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:59.8782 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:59.8782 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:36:59.8782 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:14.9631 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:15.0544 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:15.0813 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:15.0813 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:40.9236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:40.9236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:40.9236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:37:40.9236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:38:12.1302 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:38:12.1694 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:38:12.2267 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:38:12.2267 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:40:07.2551 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:40:07.2551 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:13.1898 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:13.1898 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:34.0500 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:34.0500 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:37.8228 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:37.8228 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:37.8509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:37.8509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:37.8509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:37.8509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:48.9264 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:48.9501 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:48.9911 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:43:48.9911 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:44:09.6074 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:44:09.6074 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:44:29.1682 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:44:29.1730 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:13.3507 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:13.3507 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:17.7199 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:17.7199 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:17.7587 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:17.7587 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:17.7671 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:47:17.7671 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:48:18.5935 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:48:18.6004 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:48:23.5909 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:48:23.5909 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:48:25.1040 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:48:25.1116 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:49:01.1398 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:49:01.1457 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:49:34.9787 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:49:34.9866 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:53:25.7023 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:53:25.7086 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:54:19.0263 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:54:19.0263 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:54:53.7050 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:54:53.7050 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:55:07.4203 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:55:07.4203 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:55:48.8289 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:55:48.8377 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:56:03.6766 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:56:03.6766 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:56:14.1106 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:56:14.1106 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:56:47.0204 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:56:47.0204 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:57:45.4456 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:57:45.4456 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:06.1218 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:06.1218 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:17.4024 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:17.4087 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:19.9084 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:19.9084 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:25.9946 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:25.9946 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:26.0481 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:26.0481 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:31.6021 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:31.6021 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:32.7988 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:32.7988 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:33.7817 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:33.7829 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:46.9529 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:46.9553 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:56.2260 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:58:56.2440 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:59:17.7698 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:59:17.7698 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:59:48.0335 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 10:59:48.0335 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:00:24.3551 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:00:24.3621 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:00:45.9579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:00:45.9579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:01:19.0931 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:01:19.1035 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:02:04.4782 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:02:04.4782 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:02:33.1843 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:02:33.1843 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:02:50.6435 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:02:50.6435 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:00.5764 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:00.5844 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:07.5484 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:07.5484 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:10.7971 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:10.7979 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:19.4991 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:19.5029 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:19.5517 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:19.5517 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:25.6308 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:25.6308 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:25.6548 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:25.6576 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:25.6576 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:25.6576 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:28.8363 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:28.8509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:28.8856 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:28.8856 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:33.3509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:33.3509 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:58.7012 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:04:58.7012 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:06:20.0804 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:06:20.0804 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:08:24.2195 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:08:24.2195 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:36.9370 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 11:09:36.9660 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 11:09:36.9700 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:09:36.9700 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 11:09:36.9700 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:09:36.9700 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:09:36.9700 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 11:09:36.9700 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 11:09:36.9700 Debug Auto loading done
+2020-05-20 11:09:36.9849 Info Message Template Auto Format enabled
+2020-05-20 11:09:36.9849 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:36.9849 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:09:37.0049 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 11:09:37.0049 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 11:09:37.0049 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0049 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0049 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0049 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:09:37.0049 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:09:37.0049 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:09:37.0205 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0205 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0205 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0205 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 11:09:37.0205 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0205 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:09:37.0205 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 11:09:37.0205 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 11:09:37.0205 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0205 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:09:37.0205 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 11:09:37.0205 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0321 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:09:37.0321 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 11:09:37.0321 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 11:09:37.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0321 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0321 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:09:37.0321 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:09:37.0321 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:09:37.0321 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0321 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0321 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:09:37.0321 Info Adding target FileTarget(Name=logfile)
+2020-05-20 11:09:37.0321 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 11:09:37.0321 Trace ParseRulesElement
+2020-05-20 11:09:37.0541 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 11:09:37.0541 Debug --- NLog configuration dump ---
+2020-05-20 11:09:37.0541 Debug Targets:
+2020-05-20 11:09:37.0541 Debug File Target[logfile]
+2020-05-20 11:09:37.0541 Debug Rules:
+2020-05-20 11:09:37.0541 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 11:09:37.0541 Debug --- End of NLog configuration dump ---
+2020-05-20 11:09:37.0541 Trace FindReachableObject<System.Object>:
+2020-05-20 11:09:37.0541 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 11:09:37.0631 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 11:09:37.0631 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 11:09:37.0631 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 11:09:37.0631 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:09:37.0631 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0631 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0631 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:09:37.0631 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0631 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 11:09:37.0631 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:09:37.0631 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0631 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:09:37.0631 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0631 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:09:37.0631 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:09:37.0631 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:09:37.0631 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0631 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0631 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0631 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:09:37.0631 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 11:09:37.0631 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 11:09:37.0631 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 11:09:37.0631 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 11:09:37.0631 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 11:09:37.0831 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 11:09:37.0831 Trace Initializing Layout Renderer: ${message}
+2020-05-20 11:09:37.0831 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:09:37.0831 Trace Initializing Layout Renderer: ${level}
+2020-05-20 11:09:37.0831 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 11:09:37.0831 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0831 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:09:37.0831 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0831 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0831 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 11:09:37.0831 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:09:37.0831 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 11:09:37.0831 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 11:09:37.0952 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0952 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:09:37.0952 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0952 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:09:37.0952 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0952 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:09:37.0952 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:09:37.0952 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:09:37.0952 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0952 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:09:37.0952 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0952 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:09:37.0952 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:09:37.0952 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 11:09:37.0952 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:09:37.0952 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 11:09:37.0952 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:09:37.0952 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:09:37.0952 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:09:37.0952 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0952 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:09:37.0952 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:09:37.0952 Trace Initializing File Target[logfile]
+2020-05-20 11:09:37.0952 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 11:09:37.0952 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 11:09:37.0952 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 11:09:37.0952 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:09:37.0952 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 11:09:37.0952 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:09:37.0952 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 11:09:37.0952 Trace File Target[logfile] has 2 layouts
+2020-05-20 11:09:37.1107 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-05-20 11:09:37.8896 Debug Targets for LoggerService.LoggerManager by level:
+2020-05-20 11:09:37.8896 Debug Trace =>
+2020-05-20 11:09:37.8939 Debug Debug => logfile
+2020-05-20 11:09:37.8939 Debug Info => logfile
+2020-05-20 11:09:37.8939 Debug Warn => logfile
+2020-05-20 11:09:37.8939 Debug Error => logfile
+2020-05-20 11:09:37.8939 Debug Fatal => logfile
+2020-05-20 11:09:37.9236 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt'
+2020-05-20 11:09:37.9236 Debug Creating file appender: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt
+2020-05-20 11:09:37.9236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:39.1272 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:39.5399 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:39.5486 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:47.9275 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:47.9275 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:53.5967 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:53.5967 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:53.6614 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:53.6614 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:58.8539 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:58.8812 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:58.8812 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:58.8812 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:58.9036 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:09:58.9131 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:04.4790 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:04.6538 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:49.8275 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 11:10:49.9070 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 11:10:49.9688 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:10:50.0150 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 11:10:50.0150 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:10:50.0150 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:10:50.0369 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 11:10:50.0369 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 11:10:50.0369 Debug Auto loading done
+2020-05-20 11:10:50.0369 Info Message Template Auto Format enabled
+2020-05-20 11:10:50.0622 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0664 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:10:50.0664 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 11:10:50.0664 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 11:10:50.0787 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0787 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.0787 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0787 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:10:50.0787 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:10:50.0787 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:10:50.0787 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.0787 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.0787 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0787 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 11:10:50.0953 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0953 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:10:50.0953 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 11:10:50.0953 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 11:10:50.0953 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0953 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:10:50.0953 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 11:10:50.0953 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.0953 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:10:50.1111 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 11:10:50.1111 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 11:10:50.1111 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.1111 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.1111 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.1111 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:10:50.1111 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:10:50.1111 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:10:50.1111 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1111 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.1111 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.1111 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:10:50.1111 Info Adding target FileTarget(Name=logfile)
+2020-05-20 11:10:50.1111 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 11:10:50.1111 Trace ParseRulesElement
+2020-05-20 11:10:50.1452 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 11:10:50.1452 Debug --- NLog configuration dump ---
+2020-05-20 11:10:50.1452 Debug Targets:
+2020-05-20 11:10:50.1452 Debug File Target[logfile]
+2020-05-20 11:10:50.1452 Debug Rules:
+2020-05-20 11:10:50.1452 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 11:10:50.1452 Debug --- End of NLog configuration dump ---
+2020-05-20 11:10:50.1452 Trace FindReachableObject<System.Object>:
+2020-05-20 11:10:50.1452 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 11:10:50.1452 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 11:10:50.1576 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 11:10:50.1576 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 11:10:50.1576 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:10:50.1576 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1576 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1576 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:10:50.1576 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1576 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 11:10:50.1576 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:10:50.1576 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1576 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:10:50.1576 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1576 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:10:50.1576 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:10:50.1576 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:10:50.1576 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1576 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.1576 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1576 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:10:50.1576 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 11:10:50.1576 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 11:10:50.1576 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 11:10:50.1576 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 11:10:50.1738 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 11:10:50.1738 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 11:10:50.1738 Trace Initializing Layout Renderer: ${message}
+2020-05-20 11:10:50.1738 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:10:50.1738 Trace Initializing Layout Renderer: ${level}
+2020-05-20 11:10:50.1738 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 11:10:50.1738 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.1738 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:10:50.1738 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1738 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.1913 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 11:10:50.1913 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:10:50.1913 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 11:10:50.1913 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 11:10:50.1913 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.1913 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:10:50.1913 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1913 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:10:50.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1913 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:10:50.1913 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:10:50.1913 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:10:50.1913 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1913 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:10:50.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1913 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:10:50.1913 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:10:50.1913 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 11:10:50.1913 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:10:50.1913 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 11:10:50.1913 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:10:50.1913 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:10:50.1913 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:10:50.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.1913 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:10:50.2039 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:10:50.2039 Trace Initializing File Target[logfile]
+2020-05-20 11:10:50.2039 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 11:10:50.2039 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 11:10:50.2039 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 11:10:50.2039 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:10:50.2039 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 11:10:50.2039 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:10:50.2039 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 11:10:50.2039 Trace File Target[logfile] has 2 layouts
+2020-05-20 11:10:50.2039 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-05-20 11:10:51.0114 Debug Targets for LoggerService.LoggerManager by level:
+2020-05-20 11:10:51.0114 Debug Trace =>
+2020-05-20 11:10:51.0114 Debug Debug => logfile
+2020-05-20 11:10:51.0196 Debug Info => logfile
+2020-05-20 11:10:51.0196 Debug Warn => logfile
+2020-05-20 11:10:51.0196 Debug Error => logfile
+2020-05-20 11:10:51.0196 Debug Fatal => logfile
+2020-05-20 11:10:51.0439 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt'
+2020-05-20 11:10:51.0505 Debug Creating file appender: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt
+2020-05-20 11:10:51.0505 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:51.0505 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:57.7130 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:57.7391 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:57.7534 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:57.7534 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:57.8783 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:10:57.9121 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:11:03.1740 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:11:03.3567 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:11:03.3928 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:11:03.3928 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:12:35.7236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:12:35.7236 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:12:43.4579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:12:43.4579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:12:54.3800 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:12:54.3800 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:28:30.8727 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:28:30.8790 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:28.6890 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:28.6890 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:39.7486 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:39.7486 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:45.0340 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:45.0340 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:54.1870 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:29:54.1897 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:30:06.7557 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:30:06.7557 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:30:17.4169 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:30:17.4169 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:32:49.4770 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:32:49.4860 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:33:44.6631 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:33:44.6631 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:34:13.9717 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:34:13.9717 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:02.9390 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:02.9390 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:21.0783 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:21.0798 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:34.8251 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:34.8367 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:34.8529 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:34.8529 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:34.8529 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:35:34.8609 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:16.7363 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:16.7614 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:16.8260 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:16.8260 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:30.7615 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:30.7615 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:30.7734 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:30.7734 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:30.7734 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:36:30.7734 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:29.3985 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:29.3985 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:37.5107 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:37.5107 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:40.4727 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:40.4727 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:40.5097 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:40.5097 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:40.5178 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:39:40.5178 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:40:24.4224 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:40:24.4506 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:40:24.5649 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:40:24.5649 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:41.7305 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:41.7379 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:52.7228 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:52.7228 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:52.7531 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:52.7531 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:52.7531 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:41:52.7531 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:00.7751 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:00.7751 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:43.8611 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:43.8611 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:46.6479 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:46.6479 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:46.6749 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:46.6749 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:46.6749 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:46.6749 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:56.9583 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:56.9583 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:57.0138 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:42:57.0138 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:22.0181 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:22.0181 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:23.6663 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:23.6796 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:23.7028 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:23.7058 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:23.7058 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:23.7058 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:50.6154 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:50.6154 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:50.6829 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:43:50.6829 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:20.8297 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:20.8297 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:41.2465 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:41.2465 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:44.2049 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:44.2049 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:44.2441 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:44.2524 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:44.2524 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:44:44.2524 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:45:28.2650 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:45:28.2898 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:45:28.3274 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:45:28.3274 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:24.1579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:24.1579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:29.6329 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:29.6329 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:29.6660 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:29.6660 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:29.6660 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:29.6732 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:53.5944 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:53.6259 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:53.6579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:46:53.6579 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:09.1704 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:09.1768 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:14.6968 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:14.6968 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:19.8240 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:19.8240 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:19.8569 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:19.8623 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:19.8623 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:47:19.8623 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:48:04.4473 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:48:04.4724 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:48:04.5051 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:48:04.5051 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:19.1120 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:19.1120 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:26.1589 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:26.1589 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:29.2159 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:29.2159 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:29.2368 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:29.2368 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:29.2368 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:29.2368 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:44.5551 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:44.5806 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:44.6295 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:51:44.6295 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:52:12.2770 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:52:12.2816 Trace Opening C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\2020-05-20_logfile.txt with allowFileSharedWriting=False
+2020-05-20 11:53:16.9947 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-05-20 11:53:17.0565 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-05-20 11:53:17.0650 Debug Search for auto loading files in location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:53:17.0797 Debug Found assembly location directory: 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1' (CredoVacancy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-05-20 11:53:17.0797 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:53:17.0797 Debug Start auto loading, location: C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy\bin\Debug\netcoreapp3.1
+2020-05-20 11:53:17.0797 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 11:53:17.0797 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-05-20 11:53:17.0797 Debug Auto loading done
+2020-05-20 11:53:17.0797 Info Message Template Auto Format enabled
+2020-05-20 11:53:17.1211 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1257 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:53:17.1257 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 11:53:17.1257 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 11:53:17.1257 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1257 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.1257 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1257 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:53:17.1441 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:53:17.1441 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:53:17.1441 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.1441 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.1441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1441 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-05-20 11:53:17.1441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1441 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:53:17.1634 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-05-20 11:53:17.1634 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 11:53:17.1634 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1634 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:53:17.1634 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 11:53:17.1634 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1634 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:53:17.1634 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-05-20 11:53:17.1634 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-05-20 11:53:17.1634 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1634 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.1732 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1732 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:53:17.1732 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:53:17.1732 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:53:17.1732 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.1732 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.1732 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.1732 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:53:17.1732 Info Adding target FileTarget(Name=logfile)
+2020-05-20 11:53:17.1732 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-05-20 11:53:17.1732 Trace ParseRulesElement
+2020-05-20 11:53:17.2070 Debug Watching path 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy' filter 'nlog.config' for changes.
+2020-05-20 11:53:17.2070 Debug --- NLog configuration dump ---
+2020-05-20 11:53:17.2070 Debug Targets:
+2020-05-20 11:53:17.2070 Debug File Target[logfile]
+2020-05-20 11:53:17.2070 Debug Rules:
+2020-05-20 11:53:17.2070 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-05-20 11:53:17.2070 Debug --- End of NLog configuration dump ---
+2020-05-20 11:53:17.2211 Trace FindReachableObject<System.Object>:
+2020-05-20 11:53:17.2211 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-05-20 11:53:17.2211 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-05-20 11:53:17.2211 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-05-20 11:53:17.2211 Trace   Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 11:53:17.2211 Trace   Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:53:17.2211 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2211 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2211 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:53:17.2211 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2211 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 11:53:17.2211 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:53:17.2211 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2211 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:53:17.2211 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2352 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:53:17.2352 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:53:17.2352 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:53:17.2352 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2352 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.2352 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2352 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:53:17.2352 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 11:53:17.2352 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-05-20 11:53:17.2352 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-05-20 11:53:17.2352 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\nino.makharadze\Source\Repos\CredoVacancy\CredoVacancy/nlog.config
+2020-05-20 11:53:17.2352 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-05-20 11:53:17.2564 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-05-20 11:53:17.2564 Trace Initializing Layout Renderer: ${message}
+2020-05-20 11:53:17.2564 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:53:17.2564 Trace Initializing Layout Renderer: ${level}
+2020-05-20 11:53:17.2564 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-05-20 11:53:17.2671 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.2671 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:53:17.2671 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2671 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.2671 Trace Initializing Layout Renderer: ${uppercase}
+2020-05-20 11:53:17.2671 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:53:17.2671 Trace Initializing Layout Renderer: ${longdate}
+2020-05-20 11:53:17.2671 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-05-20 11:53:17.2671 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.2671 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:53:17.2671 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2671 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-05-20 11:53:17.2671 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2671 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-05-20 11:53:17.2822 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-05-20 11:53:17.2822 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-05-20 11:53:17.2822 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2822 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-05-20 11:53:17.2822 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2822 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-05-20 11:53:17.2822 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:53:17.2822 Trace Initializing Layout Renderer: ${shortdate}
+2020-05-20 11:53:17.2822 Trace Initializing Layout Renderer: ${literal}
+2020-05-20 11:53:17.2822 Trace Initializing 'C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'
+2020-05-20 11:53:17.2822 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-05-20 11:53:17.2822 Trace Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:53:17.2822 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-05-20 11:53:17.2822 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2822 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-05-20 11:53:17.2822 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-05-20 11:53:17.2822 Trace Initializing File Target[logfile]
+2020-05-20 11:53:17.2822 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-05-20 11:53:17.2822 Trace Scanning FileTarget 'File Target[logfile]'
+2020-05-20 11:53:17.2982 Trace  Scanning Property FileName ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-05-20 11:53:17.2982 Trace  Scanning SimpleLayout ''C:\Users\nino.makharadze\Source\Repos\CredoVacancy\logs\${shortdate}_logfile.txt''
+2020-05-20 11:53:17.2982 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-05-20 11:53:17.2982 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-05-20 11:53:17.2982 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-05-20 11:53:17.2982 Trace File Target[logfile] has 2 layouts
+2020-05-20 11:53:17.2982 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
